@@ -1,0 +1,69 @@
+PODS:
+  - Flutter (1.0.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - snapkit (1.0.0):
+    - Flutter
+    - SnapSDK (= 1.11.0)
+  - SnapSDK (1.11.0):
+    - SnapSDK/SCSDKBitmojiKit (= 1.11.0)
+    - SnapSDK/SCSDKCoreKit (= 1.11.0)
+    - SnapSDK/SCSDKCreativeKit (= 1.11.0)
+    - SnapSDK/SCSDKLoginKit (= 1.11.0)
+    - SnapSDK/SCSDKStoryKit (= 1.11.0)
+  - SnapSDK/SCSDKBitmojiKit (1.11.0):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.2.1)
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKCoreKit (1.11.0)
+  - SnapSDK/SCSDKCreativeKit (1.11.0):
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKLoginKit (1.11.0):
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKStoryKit (1.11.0):
+    - SnapSDK/SCSDKCoreKit
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - snapkit (from `.symlinks/plugins/snapkit/ios`)
+
+SPEC REPOS:
+  trunk:
+    - PINCache
+    - PINOperation
+    - SnapSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  snapkit:
+    :path: ".symlinks/plugins/snapkit/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  snapkit: 98ea41e974cf6b3617c2de29844a6da01d9e3df8
+  SnapSDK: ae3dc769d22ee7b92447729481c7c08c1b231acd
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.10.1
